@@ -78,7 +78,7 @@ class LinkController extends Controller
 
             return redirect($url);
         }
-        return abort(404);;
+        return abort(404);
 
     }
 }
